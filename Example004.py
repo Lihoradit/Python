@@ -1,4 +1,4 @@
-#Вычислить число c заданной точностью d
+'''#Вычислить число c заданной точностью d
 import math
 
 d = input('Введите степень округления ')
@@ -72,4 +72,4 @@ with open('poly_2.txt','r') as file:
 print(f'{list_of_poly_1} + {list_of_poly_2}')
 sum_poly = list_of_poly_1 + list_of_poly_2
 with open('sum_poly.txt', 'w', encoding='utf-8') as file:
-    file.write(f'{list_of_poly_1} + {list_of_poly_2}')
+    file.write(f'{list_of_poly_1} + {list_of_poly_2}')'''
