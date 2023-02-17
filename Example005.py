@@ -1,4 +1,4 @@
-#Напишите программу, удаляющую из текста все слова, содержащие ""абв"".
+'''#Напишите программу, удаляющую из текста все слова, содержащие ""абв"".
 user_text = input("Введите текст через пробел: ")
 print(f"Исходный текст: {user_text}")
 find_user_text = "абв"
@@ -164,4 +164,4 @@ with open('file_decode.txt', 'w') as file:
 
 print('Decoded string: \t' + decoded_string)
 print('Encoded string: \t' + rle_encode(decoded_string))
-print(f'Compress ratio: \t{round(len(decoded_string) / len(encoded_string), 1)}')
+print(f'Compress ratio: \t{round(len(decoded_string) / len(encoded_string), 1)}')'''
